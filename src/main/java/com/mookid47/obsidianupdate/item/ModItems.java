@@ -10,6 +10,7 @@ public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(ObsidianUpdate.MOD_ID);
 
     public static final DeferredItem<Item> OBSIDIAN_INGOT = ITEMS.registerItem("obsidian_ingot", Item::new, new Item.Properties());
+    public static final DeferredItem<Item> OBSIDIAN_UPGRADE = ITEMS.registerItem("obsidian_upgrade_smithing_template", Item::new, new Item.Properties());
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

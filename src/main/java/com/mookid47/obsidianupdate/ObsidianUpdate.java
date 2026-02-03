@@ -66,6 +66,7 @@ public class ObsidianUpdate {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.OBSIDIAN_INGOT);
+            event.accept(ModItems.OBSIDIAN_UPGRADE);
         }
     }
 
